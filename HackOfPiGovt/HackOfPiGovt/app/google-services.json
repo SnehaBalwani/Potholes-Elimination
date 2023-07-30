@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "474889862819",
+    "project_id": "hackofpi",
+    "storage_bucket": "hackofpi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474889862819:android:a81d11d8d19aff04e64916",
+        "android_client_info": {
+          "package_name": "com.example.hackofpi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474889862819-bh90r13upbm901gf0hv2p0848ritc7o0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPYSXa4jYwgi0Mcm_R_oNcJlwWlcp9jNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474889862819-bh90r13upbm901gf0hv2p0848ritc7o0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474889862819:android:e581fb075fa7d683e64916",
+        "android_client_info": {
+          "package_name": "com.example.hackofpigovt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474889862819-bh90r13upbm901gf0hv2p0848ritc7o0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPYSXa4jYwgi0Mcm_R_oNcJlwWlcp9jNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474889862819-bh90r13upbm901gf0hv2p0848ritc7o0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

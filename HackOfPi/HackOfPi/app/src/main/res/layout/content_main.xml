@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO (Step 2: Create a content_main xml file.)-->
+<!--START-->
+<!--Move the activity_main xml file code to this file.-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.HelpActivity"
+        android:orientation="vertical"
+        android:background="@drawable/ic_background">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_about_app_activity"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/main_page_heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/app_name"
+                    android:textColor="@color/golden_rod"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Let's eliminate all the pot holes in our city"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="30sp"/>
+
+                <Button
+                    android:id="@+id/fileComplaintButton"
+                    android:text="File a Complaint"
+                    android:checked="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/btn_marginStartEnd"
+                    android:layout_marginTop="@dimen/intro_screen_sign_in_btn_marginTop"
+                    android:layout_marginEnd="@dimen/btn_marginStartEnd"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/shape_rounded2"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/btn_paddingTopBottom"
+                    android:paddingBottom="@dimen/btn_paddingTopBottom"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/btn_text_size"
+                    />
+
+                <Button
+                    android:id="@+id/viewMyComplaintsButton"
+                    android:layout_width="344dp"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/btn_marginStartEnd"
+                    android:layout_marginTop="@dimen/intro_screen_sign_in_btn_marginTop"
+                    android:layout_marginEnd="@dimen/btn_marginStartEnd"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/shape_rounded2"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/btn_paddingTopBottom"
+                    android:paddingBottom="@dimen/btn_paddingTopBottom"
+                    android:text="View my Complaints"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/btn_text_size" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    <!--END-->

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation.xml"
+    app:startDestination="@id/splashScreen">
+
+    <activity
+        android:id="@+id/introActivity"
+        android:name="com.example.skillupwomensafetyapp.activities.IntroActivity"
+        android:label="activity_intro"
+        tools:layout="@layout/activity_intro" />
+    <activity
+        android:id="@+id/signInActivity"
+        android:name="com.example.skillupwomensafetyapp.activities.SignInActivity"
+        android:label="activity_sign_in"
+        tools:layout="@layout/activity_sign_in" />
+    <activity
+        android:id="@+id/signUpActivity"
+        android:name="com.example.skillupwomensafetyapp.activities.SignUpActivity"
+        android:label="activity_sign_up"
+        tools:layout="@layout/activity_sign_up" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.skillupwomensafetyapp.activities.MainActivity"
+        android:label="content_main"
+        tools:layout="@layout/content_main" />
+    <activity
+        android:id="@+id/profileActivity"
+        android:name="com.example.skillupwomensafetyapp.activities.ProfileActivity"
+        android:label="activity_profile"
+        tools:layout="@layout/activity_profile" />
+    <activity
+        android:id="@+id/helpActivity"
+        android:name="com.example.skillupwomensafetyapp.activities.HelpActivity"
+        android:label="activity_help"
+        tools:layout="@layout/activity_help" />
+    <activity
+        android:id="@+id/aboutUsActivity"
+        android:name="com.example.skillupwomensafetyapp.activities.AboutUsActivity"
+        android:label="activity_about_us"
+        tools:layout="@layout/activity_about_us" />
+    <activity
+        android:id="@+id/splashScreen"
+        android:name="com.example.skillupwomensafetyapp.activities.SplashScreen"
+        android:label="activity_splash_screen"
+        tools:layout="@layout/activity_splash_screen" />
+</navigation>
